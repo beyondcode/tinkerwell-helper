@@ -7,7 +7,7 @@ Immediately open Tinkerwell from within your Laravel applications. Think of it a
 You can install the package via composer:
 
 ```bash
-composer require beyondcode/tinkerwell-helper
+composer require --dev beyondcode/tinkerwell-helper
 ```
 
 ## Usage
