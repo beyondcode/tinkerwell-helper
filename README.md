@@ -23,6 +23,14 @@ tinker($user);
 
 This will open Tinkerwell and you will have the `$user` variable available within Tinkerwell immediately.
 
+You can also tinker with data that is not explicitly in a temporary variable:
+
+``` php
+tinker(User::find(1));
+```
+
+In this case, the scoped variable(s) are named `$temp0`, `$temp1`, etc.
+
 ### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
