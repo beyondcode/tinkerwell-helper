@@ -1,11 +1,4 @@
 # Tinkerwell Helper
- 
-Open Tinkerwell right from your Laravel apps.
-
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/beyondcode/tinkerwell-helper.svg?style=flat-square)](https://packagist.org/packages/beyondcode/tinkerwell-helper)
-[![Build Status](https://img.shields.io/travis/beyondcode/tinkerwell-helper/master.svg?style=flat-square)](https://travis-ci.org/beyondcode/tinkerwell-helper)
-[![Quality Score](https://img.shields.io/scrutinizer/g/beyondcode/tinkerwell-helper.svg?style=flat-square)](https://scrutinizer-ci.com/g/beyondcode/tinkerwell-helper)
-[![Total Downloads](https://img.shields.io/packagist/dt/beyondcode/tinkerwell-helper.svg?style=flat-square)](https://packagist.org/packages/beyondcode/tinkerwell-helper)
 
 Immediately open Tinkerwell from within your Laravel applications. Think of it as a `dd` on steroids.
 
