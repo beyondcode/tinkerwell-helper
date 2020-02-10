@@ -1,0 +1,30 @@
+{
+    "name": "beyondcode/tinkerwell-helper",
+    "description": "Open Tinkerwell from your Laravel project.",
+    "keywords": [
+        "beyondcode",
+        "tinkerwell-helper"
+    ],
+    "homepage": "https://github.com/beyondcode/tinkerwell-helper",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcel Pociot",
+            "email": "marcel@beyondco.de",
+            "homepage": "https://beyondcode.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.3",
+        "illuminate/support": "5.6.*|5.7.*|5.8.*|^6.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helper.php"
+        ]
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
