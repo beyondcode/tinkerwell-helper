@@ -12,6 +12,8 @@ composer require --dev beyondcode/tinkerwell-helper
 
 ## Usage
 
+> Note: You need Tinkerwell version 2.2.0+ in order to use this package.
+
 Use the `tinker` method to open Tinkerwell with the given variables available in the Tinkerwell scope.
 
 For example:
