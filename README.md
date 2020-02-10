@@ -1,6 +1,6 @@
 # Tinkerwell Helper
 
-Immediately open Tinkerwell from within your Laravel applications. Think of it as a `dd` on steroids.
+Immediately open [Tinkerwell](https://tinkerwell.app) from within your Laravel applications. Think of it as a `dd` on steroids.
 
 ## Installation
 
