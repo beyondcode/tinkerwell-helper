@@ -58,9 +58,7 @@ if (! function_exists('tinker')) {
                 throw new ProcessFailedException($process);
             }
 
-            echo $process->getOutput();
         } catch (ProcessFailedException $exception) {
-            echo $exception->getMessage();
             Log::error($exception->getMessage());
         }
     }
