@@ -41,7 +41,7 @@ if (! function_exists('tinker')) {
         // For MacOS
         $command = 'open "tinkerwell://?cwd='.base64_encode(base_path()).'&scope='.base64_encode(serialize($namedParameters)).'"';
 
-        if (strtoupper(substr(PHP_OS, 0, 3)) === 'WIN') {
+        if (windows_os()) {
             $logPath = base_path() . '\\storage\\logs\\tinkerwell-' . date("Y-m-d") . '.log';
 
             // For Windows || ATTENTION ... I added a ^ before the & to escape it.
