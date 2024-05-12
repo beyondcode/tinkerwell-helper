@@ -4,6 +4,9 @@ Immediately open [Tinkerwell](https://tinkerwell.app) from within your Laravel a
 
 ## Installation
 
+
+**This package only works with Tinkerwell for macOS**
+
 You can install the package via composer:
 
 ```bash
